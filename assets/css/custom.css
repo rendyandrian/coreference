@@ -1,0 +1,47 @@
+.w-200{
+    width:200px;
+}
+@media (min-width: 800px) {
+    .w-200{
+        width:auto;
+    }
+}
+.ml-10{
+    margin-left:10px;
+}
+.toast-custom{
+    position:relative; 
+    padding:0px; 
+    margin-left:10px;
+}
+.btn-save-custom{
+    margin:0px 10px; 
+    float:right;
+}
+.toast-body-custom{
+    padding:7px 10px;
+    margin:0px;
+}
+.w-200{
+    width:200px;
+}
+.mp-0{
+    margin:0px;
+    padding:0px;
+}
+#anggota::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; 
+}
+    
+#anggota::-webkit-scrollbar {
+    width: 3px;
+    background-color: #F5F5F5; 
+}
+  
+#anggota::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(243, 240, 240, 0.1);
+  background-color: #cccccc; 
+}

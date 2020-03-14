@@ -116,6 +116,12 @@
 			$data = $this->db->get();
 			return $data->result();	
 		}
+		public function showAllArabBySurat($id){
+			$this->db->from('qword');
+			$this->db->where('SId', $id);
+			$data = $this->db->get();
+			return $data->result();	
+		}
 
 	}
 

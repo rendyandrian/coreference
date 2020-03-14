@@ -1,3 +1,25 @@
+function ayat(){
+	const baseUrl = $('#base-url').val();
+	id=$('#ayat').val();
+	$.ajax({
+		url: baseUrl+'anotasi/'+id,
+		method: "GET",
+		success: function(data) {
+			$.each(data, function(key, arab) {
+				var ayat=arab.Data;
+				console.log(ayat);
+				// var ruangRapatName=ruangRapat.ruang_rapat_name;
+				// let current_ruang_rapat_id = $('#current_ruang_rapat_id').val();
+				// var selected= '';
+				// if(ruangRapatId==current_ruang_rapat_id){
+				// 	selected='selected';
+				// }
+				// formRuangRapat+= "<option value='"+ruangRapatId+"' "+selected+">"+ruangRapatName+"</option>";
+			});
+		}
+	});
+}
+
 $( "#button" ).hide();
 function getPersonelByNRPForAddUser() {
 	const baseUrl = $('#base-url').val();

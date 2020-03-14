@@ -84,7 +84,8 @@ $route['inbox']['GET'] = 'InboxController';
 $route['inbox/(:num)']['GET'] = 'InboxController/show/$1';
 $route['inbox/add']['GET'] = 'InboxController/add_get';
 $route['inbox']['POST'] = 'InboxController/add_post';
-// ====================== GROUP ======================
+// ====================== INBOX ======================
+$route['anotasi/(:num)']['GET'] = 'InboxController/anotasi/$1';
 
 // +++++++++++++++++++++++++++++++++++ JENIS SURAT +++++++++++++++++++++++++++++++++++ 
 $route['jenisSurat']['GET'] = 'JenisSuratController';

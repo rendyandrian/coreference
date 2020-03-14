@@ -52,7 +52,8 @@ $(".form_datetime").datetimepicker({
 	format: "yyyy-mm-dd hh:ii",
 	// linkField: "mirror_field",
 	linkFormat: "yyyy-mm-dd hh:ii",
-	showMeridian: true,
+	showMeridian: true,	
 	autoclose: true,
 	todayBtn: true
 });
+

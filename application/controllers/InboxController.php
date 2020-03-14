@@ -61,6 +61,10 @@ class InboxController extends BaseController {
 		// echo "</pre>";
         return view ($this->entity.'.index',$data);
     }
-	
+	public function anotasi($id){
+		header("Content-type:application/json");
+		$getArab = $this->getModel()->showAllArabBySurat($id);	
+		echo json_encode($getArab);
+	}	
 }
 ?>

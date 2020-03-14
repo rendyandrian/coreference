@@ -21,6 +21,26 @@
     </div>
   </div>
   
+  <!-- Anotasi Modal-->
+  <div class="modal fade" id="anotasiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background:#3A60D0;">
+          <h5 class="modal-title" id="exampleModalLabel" style="color:white;">Anotasi</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color:#fff;">×</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modalAyat">Klik tombol "Logout" Jika Anda ingin keluar dari aplikasi.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+          <a class="btn btn-primary" href="#"><i class="fa fa-save"></i> Simpan</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
   <!-- Bootstrap core JavaScript-->
   <script src="{{ assets_url("") }}vendor/jquery/jquery.min.js"></script>
   <script src="{{ assets_url("") }}vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -59,4 +79,3 @@
 
   <script src="{{ assets_url("") }}js/selectsearch/bootstrap-select.js"></script>   
   <script src="{{ assets_url("") }}js/toast/bootstrap.min.js"></script>
-z

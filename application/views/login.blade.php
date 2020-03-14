@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>eMeeting (Jadwal Rapat Terpadu)</title>
+  <title>Coreference Resolution</title>
 
   <!-- Custom fonts for this template-->
   <link href="{{assets_url('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
-		<h1 class="h1 text-white mb-1" style="text-align:center; margin-top:40px; font-weight:bold;">eMeeting <br> (Jadwal Rapat Terpadu)</h1>
+		<h1 class="h1 text-white mb-1" style="text-align:center; margin-top:40px; font-weight:bold;">Coreference Resolution</h1>
         <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->

@@ -20,7 +20,7 @@ function ayat(){
 					showArab+="<button class='d-none d-sm-inline-block btn btn-sm btn-success shadow-sm' data-toggle=\"modal\" data-target=\"#anotasiModal\" onclick='tes(\""+ayat+"\",\""+translation+"\",\""+Id+"\",\""+SId+"\",\""+VId+"\",\""+WordId+"\")' title='"+translation+"' style='margin:3px;'>"+ayat+"</button>";
 				}
 				else{
-					showArab+="<button class='d-none d-sm-inline-block btn btn-sm btn-disabled shadow-sm' title='"+translation+"' style='margin:3px;'>"+ayat+"</button>";
+					showArab+="<button class='d-none d-sm-inline-block btn btn-sm btn-disabled shadow-sm' title='"+translation+"' style='margin:3px;' onclick='alertNon()'>"+ayat+"</button>";
 				}
 
 			});
@@ -74,4 +74,8 @@ function tes(ayat,terjemhan,Id,SId,VId,WordId){
 	textModal+="</tr>";
 	textModal+="</table>";
 	document.getElementById('modalAyat').innerHTML=textModal;
+}
+
+function alertNon(){
+	swal("Mohon Maaf!", "Kata Tersebut Bukan Tag Pronoun", "error");
 }

@@ -96,25 +96,6 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-//HEADERS SIPP API
-$requestHeaders[] = "app_id:2";
-$requestHeaders[] = "app_key:b1r01nf0p3r5";
-define('API_HEADERS',$requestHeaders);
-
-//GET PERSONEL BY NRP 
-define('PERSONEL_BY_NRP','http://api.updating.sipp.polri.go.id/index.php/personel/dataByNRP/');
-
-//API
-define("BASE_API_URL", "http://localhost/adhivasindo/sigatrik/App/api/index.php/
-");
-define("KEY_DOMAIN", "domain");
-define("KEY_PUBLIC", "public_key");
-
-//API KEY
-define('KEY_APP_ID','app_id');
-define('KEY_APP_KEY','app_key');
-
-
 define('GROUP_SUPERADMIN',1);
 define('GROUP_MABES',2);
 define('GROUP_POLDA',3);
